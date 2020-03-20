@@ -13,6 +13,24 @@ class CategorieRepository:
                 # mapping naar object
                 categories.append(CategorieRepository.map_to_object(row))
         return categories
+    
+    @staticmethod
+    def details(id, withProducts = False):
+        # 1. valideer
+        if not id:
+            return "Ongeldig categorienummer. Probeer opnieuw."
+        # 2. sql expressie
+        sql = "SELECT Categorienummer, Categorienaam, Bijschrijving "
+        sql += "FROM artemis.tblcategorieen WHERE Categorienummer = %s "
+        values = [id]
+
+        # 3. uitvoer met foutcontrole
+        result = Database.get_one_row(sql, values) # data ophale of foutboodschap
+
+        if type(result) is dict:
+            # mapping naar Categorie object
+            result = CategorieRepository.map_to_object(result)
+        return result
 
 # helpers -----------------------------------------------
     @staticmethod
