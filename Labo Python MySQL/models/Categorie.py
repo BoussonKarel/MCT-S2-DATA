@@ -54,3 +54,10 @@ class Categorie:
                 self._valueErrors["beschrijving"] = ValueError("Maximaal 50 karakters")
         else:
             self._valueErrors["beschrijving"] = ValueError("Geen geldige beschrijving")
+
+    def __str__(self):
+        return f"({self._categorienummer}) {self._categorienaam}. {self._beschrijving}"
+
+    def __repr__(self):
+        return f"({self._categorienummer}) {self._categorienaam}"
+        
