@@ -133,12 +133,13 @@ ORDER BY Gemeente;
 ```
 
 ### Ingebouwde functies
-
+**Aggregatie**functies zijn functies voor wiskundige berekeningen op één of meerdere cijfers.
+**Scalar** zijn functies voor wiskundige berekeningen op één of meerdere cijfers.
 
 
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzYzNzQ1OTQsMjA3MDA0MTQwNiw0MT
-U3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbLTk4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNT
+c2NTYxM119
 -->
