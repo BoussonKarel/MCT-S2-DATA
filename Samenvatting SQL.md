@@ -140,10 +140,11 @@ werken op een enkelvoudig element in (meestal een string)
 Daarnaast kan je ook nog je eigen functies maken als developer.
 
 #### Statische of aggregatie functies
+**AVG(), COUNT(), FIRST, LAST(), LAST(), MAX(), MIN(), SUM()**
 
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTk5MTA0MSwtOTg0NDI5OTY1LDIwNz
+eyJoaXN0b3J5IjpbMTgzMDU1Mzk2NiwtOTg0NDI5OTY1LDIwNz
 AwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
