@@ -80,8 +80,8 @@ CREATE TABLE tblParticulieren
 ```
 
 ### Nieuwe waarden toevoegen en relaties
-Je kan een categorienummer niet toevoegen aan een product als die categorie nog niet bestaat!
+Je kan een bijvoorbeeld categorienummer niet toevoegen aan een product als die categorie nog niet bestaat!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI4MzQ4NTMsODE1MjMzNjA0LDE3Mj
-U4MjI5MzldfQ==
+eyJoaXN0b3J5IjpbOTQ3NDAxNzA4LDgxNTIzMzYwNCwxNzI1OD
+IyOTM5XX0=
 -->
