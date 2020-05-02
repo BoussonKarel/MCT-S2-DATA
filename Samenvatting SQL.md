@@ -1,4 +1,14 @@
 # Datamanagement: MySQL
+## De SQL volgorde!
+```sql
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+```
+
 ## SELECT om waarden te selecteren uit 1 tabel
 ```sql
 -- Basis
@@ -129,6 +139,6 @@ ORDER BY Gemeente;
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTE0OTAzMSwyMDcwMDQxNDA2LDQxNT
-c2NTYxM119
+eyJoaXN0b3J5IjpbLTEyMzYzNzQ1OTQsMjA3MDA0MTQwNiw0MT
+U3NjU2MTNdfQ==
 -->
