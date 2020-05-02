@@ -30,10 +30,6 @@ Om zaken te concateneren, gebruik je **CONCAT()**
 SELECT CONCAT("€ ", PrijsPerEenheid * 1.33) AS 'Nieuwe Verkoopprijs'
 # Dit wordt € 23.727200
 ```
-Het kan nodig zijn om voor weergave een datatype aan te passen. Gebruik hiervoor **CAST()**
-```sql
-CAST('2017-01-01' AS DATE)
-```
 
 ### Rijen selecteren met WHERE
 Via de WHERE-clausule kan je bepalen welke rijen er getoond worden, welke rijen er aan bepaalde voorwaarden moeten voldoen.
@@ -194,8 +190,15 @@ ISNULL(expr1)
 # Handig om bijvoorbeeld NULL naar 0 om te zetten bij sorteren
 ```
 
+### Andere veel gebruikte functies
+Het kan nodig zijn om voor weergave een datatype aan te passen. Gebruik hiervoor **CAST()**
+```sql
+CAST('2017-01-01' AS DATE)
+```
+
+### Groeperen van rijen met GROUP BY en HAVING
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjIxODQ4MjEsLTk4NDQyOTk2NSwyMD
-cwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbMTYwMjg5MzU1MSwtMTI2MjE4NDgyMSwtOT
+g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
