@@ -262,9 +262,10 @@ FROM tblWerknemers;
 
 ## SELECT om waarden te selecteren uit MEERDERE tabellen
 ### Inleiding
-Zie samenvatting
-### Soor
+Zie samenvatting voor info over **tabellen en relaties**, **soorten joins**...
+### Subquery
+Een subquery komt altijd **tussen haakjes** vooafgegaan door een andere aanroepende tabelexpressie. Hey keyword is meestal **IN, NOT 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyMDU0MTUsLTEyNjIxODQ4MjEsLTk4ND
-QyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbLTIwMjk4MDA3NDEsLTEyNjIxODQ4MjEsLT
+k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
 -->
