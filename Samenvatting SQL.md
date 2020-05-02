@@ -217,10 +217,18 @@ ORDER BY Gemeente
 In plaats van WHERE kan je ook **HAVING** gebruiken.
 Het verschil is dat met _HAVING_ eerst alle data wort opgehaald met een eerste query en nadien de filtering gebeurd met een tweede instructie.
 
+**Wanneer noodzakelijk?**
+Having laat toe om een voorwaarde met een aggregatie functie op te nemen in zijn groepering.
 ```sql
-WHERE SUM(
+# Werkt niet!
+WHERE SUM(InBestelling) > 10
+GROUP BY Productnummer
+
+# Werkt wel
+GROUP BY Productnummer
+HAVING SUM(InBestelling) > 10
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzcwMjUwNCwtMTI2MjE4NDgyMSwtOT
+eyJoaXN0b3J5IjpbLTc2MjQwNDYyMSwtMTI2MjE4NDgyMSwtOT
 g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
