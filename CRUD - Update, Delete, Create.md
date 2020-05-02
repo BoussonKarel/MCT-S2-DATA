@@ -70,8 +70,18 @@ INSERT INTO tblwerknemers(Familienaam, Adres, Gemeente, Postcode)
 ```
 
 ### Nieuwe tabel op basis van een andere tabel
+Maak een kopie van (een deel van) een andere tabel.
+Dit kan je bijvoorbeeld  ook gebruiken om een backup tabel te maken.
+```sql
+CREATE TABLE tblParticulieren
+	SELECT *
+	FROM tblKlanten
+	WHERE type='P'
+```
 
+### Nieuwe waarden toevoegen en relaties
+Je kan een categorienummer niet toevoegen aan een product als die categorie nog niet bestaat!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzcyNzQ2MSw4MTUyMzM2MDQsMTcyNT
-gyMjkzOV19
+eyJoaXN0b3J5IjpbLTE5OTI4MzQ4NTMsODE1MjMzNjA0LDE3Mj
+U4MjI5MzldfQ==
 -->
