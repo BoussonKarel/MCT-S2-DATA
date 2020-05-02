@@ -289,10 +289,13 @@ WHERE NOT EXISTS (SELECT * FROM tblOrders WHERE tblOrders.Klantnummer = tblklant
 ```
 
 ### Joins
+**ON** zorgt voor een perfecte vertaling van de relatie door de twee kolommen van de relatie op te halen en aan elkaar gelijk te stellen
 ```sql
-
+SELECT tblProducten.*, tblCategorieen.categorienummer AS CategoryID
+FROM tblProducten as P
+JOIN tblCategorieen as C ON C.categorienummer = P.categorienummer
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTk1NTI4NCwtMTI2MjE4NDgyMSwtOT
-g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbLTk5MjEwNTE4LC0xMjYyMTg0ODIxLC05OD
+Q0Mjk5NjUsMjA3MDA0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
