@@ -205,10 +205,16 @@ Om groepering weer te geven herhaal je alle opgesomde kolommen in de GROUP BY oo
 ```sql
 SELECT Gemeente, SUM(Saldo) 	# Aggregatie functie SUM()
 FROM tblKlanten
-GROUP BY Gee
+GROUP BY Gemeente
+ORDER BY Gemeente
+
+# Gemeente	-	SUM(saldo)
+# Brugge	-	80
+# Gent		-	10
+# Kortrijk	-	20
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjQ3NTM3NywtMTI2MjE4NDgyMSwtOT
-g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbLTIwOTM0MjQ0NzMsLTEyNjIxODQ4MjEsLT
+k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
 -->
