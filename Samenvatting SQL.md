@@ -199,8 +199,10 @@ CAST('2017-01-01' AS DATE)
 ### Groeperen van rijen met GROUP BY en HAVING
 Met een GROUP BY clausule groepeer je rijen op basis van overeenkomsten tussen rijen.
 GROUP BY krijgt hiervoor één of meerdere kolommen aangeboden waarop je groepering wenst.
-Om groepering weer te geven herhala je alle opgesomde kolommen in de GROUP BY ook in 
+Om groepering weer te geven herhaal je alle opgesomde kolommen in de GROUP BY ook in het SELECT statement.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzkzMDEwNSwtMTI2MjE4NDgyMSwtOT
+eyJoaXN0b3J5IjpbMTg2NTc3NTEwOSwtMTI2MjE4NDgyMSwtOT
 g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
