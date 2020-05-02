@@ -37,7 +37,19 @@ Indien er een één-op-veel relatie is tussen twee tabellen kan bij het verwijde
 
 **Restrict** [DEFAULT]
 DELETE op de parent wordt verhinderd als er nog gerelateerde records bestaan in de child tabel.
-__Bijvoorb
+_Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die categorie bestaan._
+
+**Cascade** [DEFAULT]
+Bij een DELETE op de parent worden ook alle gerelateerde records verwijderd ZONDER 
+_Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die categorie bestaan._
+
+**Restrict** [DEFAULT]
+DELETE op de parent wordt verhinderd als er nog gerelateerde records bestaan in de child tabel.
+_Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die categorie bestaan._
+
+**Restrict** [DEFAULT]
+DELETE op de parent wordt verhinderd als er nog gerelateerde records bestaan in de child tabel.
+_Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die categorie bestaan._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDYxNDk2MywxODkzOTAzODYzXX0=
+eyJoaXN0b3J5IjpbLTU5MTMzNTk1MCwxODkzOTAzODYzXX0=
 -->
