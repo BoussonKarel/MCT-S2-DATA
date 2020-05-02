@@ -51,7 +51,11 @@ _Voorbeeld: Verwijderen van de categorie verwijdert de producten niet. Categorie
 Parent record kan niet worden verwijderd als er nog kinderen zijn.
 _In MySQL doet dit hetzelfde als RESTRICT_
 
-
+## Gegevens invoeren met INSERT
+```sql
+INSERT INTO tblWerknemers (Familienaam, Voornaam)
+VALUES ("Bousson", "Karel");
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTgyMjkzOV19
+eyJoaXN0b3J5IjpbODE1MjMzNjA0LDE3MjU4MjI5MzldfQ==
 -->
