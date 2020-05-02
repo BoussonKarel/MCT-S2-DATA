@@ -197,8 +197,8 @@ CAST('2017-01-01' AS DATE)
 ```
 
 ### Groeperen van rijen met GROUP BY en HAVING
-
+Met een GROUP BY clausule groepeer je rijen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjg5MzU1MSwtMTI2MjE4NDgyMSwtOT
-g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbMzQ1MjE1NzUxLC0xMjYyMTg0ODIxLC05OD
+Q0Mjk5NjUsMjA3MDA0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
