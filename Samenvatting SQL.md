@@ -91,16 +91,13 @@ NOT EXISTS (SELECT * FROM ...)
 ```
 
 #### Reguliere expressies
-```sql
-REGEXP'[0-9]*[a-z][A-Z]'	# zie verder
-/*
+Zie samenvatting
 
 
-*/
-```
 
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDA0MTQwNiw0MTU3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbMTI3ODc5ODcxMSwyMDcwMDQxNDA2LDQxNT
+c2NTYxM119
 -->
