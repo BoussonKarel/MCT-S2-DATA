@@ -154,12 +154,8 @@ SELECT MAX(saldo) - MIN(saldo) as 'VerschilSaldo FROM tblKlanten ...
 Gelijkaardig aan de functies voor berekeningen bij aggregaties bestaan er verschillende **functies op enkelvoudige elementen** zoals een string, datum. Dergelijke functies noemt met **scalar functies**.
 
 **Overzicht**
-
- - **LEFT - RIGHT - SUBTRING - LTRIM - RTRIM - UPPER - LOWER** zijn scalar functies op string types
- - **CURRENT_DATE - NOW() - TIMESTAMPDIFF  - DATEDIFF - WEEK()** zijn scalar functies op datum types
- - **ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
 Scalar functies op string types
-
+**LEFT - RIGHT - SUBTRING - LTRIM - RTRIM - UPPER - LOWER** zijn scalar functies op string types
 ```sql
 SELECT UPPER(Voornaam) FROM tblKlanten;
 # Dit wordt "KAREL"
@@ -174,8 +170,20 @@ SELECT RIGHT(Voornaam, 3) FROM tblKlanten
 LTRIM() en RTRIM() verwijderen spaties (links/rechts)
 ```
 
+**CURRENT_DATE - NOW() - TIMESTAMPDIFF  - DATEDIFF - WEEK()** zijn scalar functies op datum types
+Rekenen met datums: DATE_ADD, DATEDIFF, TIMESTAMPDIFF
+```sql
+SELECT DATE_ADD(Vervaldatum, INTERVAL 1 DAY) FROM tblOrders
+SELECT Vervaldatum + interva
+```
+
+**ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
+```sql
+
+```
+
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxNDk5OTgwLC05ODQ0Mjk5NjUsMjA3MD
-A0MTQwNiw0MTU3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbLTExODY3Njc1MjEsLTk4NDQyOTk2NSwyMD
+cwMDQxNDA2LDQxNTc2NTYxM119
 -->
