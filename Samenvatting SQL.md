@@ -20,7 +20,10 @@ Om zaken te concateneren, gebruik je **CONCAT()**
 SELECT CONCAT("€ ", PrijsPerEenheid * 1.33) AS 'Nieuwe Verkoopprijs'
 # Dit wordt € 23.727200
 ```
-Het kan nodig zijn om voor weergave een datatype aan te passen. Gebruik hiervoor **CA
+Het kan nodig zijn om voor weergave een datatype aan te passen. Gebruik hiervoor **CAST()**
+```sql
+CAST('2017-01-01' AS DATE)
+```
 
 ### Rijen selecteren met WHERE
 Via de WHERE-clausule kan je bepalen welke rijen er getoond worden, welke rijen er aan bepaalde voorwaarden moeten voldoen.
@@ -99,5 +102,5 @@ REGEXP'[0-9]*[a-z][A-Z]'	# zie verder
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTg3ODgxOCw0MTU3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbMjA3MDA0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
