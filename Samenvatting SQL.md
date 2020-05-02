@@ -150,12 +150,19 @@ SELECT MIN(saldo) AS 'Kleinste klantensaldo' FROM tblKlanten ...
 SELECT MAX(saldo) - MIN(saldo) as 'VerschilSaldo FROM tblKlanten ...
 ```
 
-#### Statische of aggregatie functies
-Gelijkaardig aan de functies voor berekeningen bij aggeg
+#### Scalar functies
+Gelijkaardig aan de functies voor berekeningen bij aggregaties bestaan er verschillende **functies op enkelvoudige elementen** zoals een string, datum. Dergelijke functies noemt met **scalar functies**.
 
+**Overzicht**
+
+ - LEFT - RIGHT - SUBTRING - LTRIM - RTRIM 
+
+```sql
+
+```
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTI4NjMyNywtOTg0NDI5OTY1LDIwNz
-AwNDE0MDYsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbNzM0MDI1NjgyLC05ODQ0Mjk5NjUsMjA3MD
+A0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
