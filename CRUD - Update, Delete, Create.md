@@ -39,15 +39,15 @@ Indien er een één-op-veel relatie is tussen twee tabellen kan bij het verwijde
 DELETE op de parent wordt `verhinderd als er nog gerelateerde records bestaan` in de child tabel.
 _Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die categorie bestaan._
 
-**Cascade** [DEFAULT]
+**Cascade**
 Bij een DELETE op de parent worden `ook alle gerelateerde records verwijderd` zonder waarschuwing.
 _Voorbeeld: Verwijderen van de categorie verwijdert ook alle producten van die categorie._
 
-**Set Null** [DEFAULT]
+**Set Null**
 Bij een DELETE op de parent worden `alle gerelateerde keyvelden op NULL geplaatst`. Zo blijft de data van de andere velden in het gerelateerde record ongewijzigd.
 _Voorbeeld: Verwijderen van de categorie verwijdert de producten niet. Categorienummer staat bij de producten op NULL_
 
-**No Action** [DEFAULT]
+**No Action**
 Parent record kan niet worden verwijderd als er nog kinderen zijn.
 _In MySQL doet dit hetzelfde als RESTRICT_
 
@@ -82,6 +82,6 @@ CREATE TABLE tblParticulieren
 ### Nieuwe waarden toevoegen en relaties
 Je kan een bijvoorbeeld categorienummer niet toevoegen aan een product als die categorie nog niet bestaat!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0OTIyMzQ0LDk0NzQwMTcwOCw4MTUyMz
-M2MDQsMTcyNTgyMjkzOV19
+eyJoaXN0b3J5IjpbMTYyMDI4NjUsODc0OTIyMzQ0LDk0NzQwMT
+cwOCw4MTUyMzM2MDQsMTcyNTgyMjkzOV19
 -->
