@@ -303,6 +303,13 @@ JOIN tblOrderinformatie AS i ON i.orderID = o.orderid
 JOIN tblProducten AS p ON i.Productnummer = p.productnummer
 ```
 **ON** zorgt voor een perfecte vertaling van de relatie door de twee kolommen van de relatie op te halen en aan elkaar gelijk te stellen
+
+## Views
+```sql
+CREATE VIEW `vwNaam` AS
+	/* SELECT STATEMENT (MET JOINS ETC) KOMT HIER */
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjgxNzI2MTNdfQ==
+eyJoaXN0b3J5IjpbMTY3MjU2MjY3OCwtMTk2ODE3MjYxM119
 -->
