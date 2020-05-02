@@ -4,6 +4,7 @@
 -- Basis
 SELECT kolom1, kolom2, kolom3 FROM tabelnaam
 ```
+
 ### Berekeningen, nieuwe kolom, concat
 Je kan ook een kolom gebruiken om een berekening te maken.
 
@@ -19,6 +20,7 @@ Om zaken te concateneren, gebruik je **CONCAT()**
 SELECT CONCAT("€ ", PrijsPerEenheid * 1.33) AS 'Nieuwe Verkoopprijs'
 # Dit wordt € 23.727200
 ```
+
 ### Rijen selecteren met WHERE
 Via de WHERE-clausule kan je bepalen welke rijen er getoond worden, welke rijen er aan bepaalde voorwaarden moeten voldoen.
 ```sql
@@ -34,6 +36,7 @@ SELECT naam, opmerking
 FROM tblKlanten
 WHERE opmerking IS NOT NULL				# NULL != ""
 ```
+
 #### Gebruik van operatoren
 In de WHERE-clausule kunnen meerdere operatoren gebruikt worden.
 Vaak kan hetzelfde bereikt worden met meerdere operatoren.
@@ -82,10 +85,14 @@ Category is NOT NULL
 EXISTS (SELECT * FROM ...)
 NOT EXISTS (SELECT * FROM ...)
 ```
-### Reguliere expres
+
+#### Reguliere expressies
+```sql
+REGEXP'[0-9]*[a-z][A-Z]'	# zie verder
+```
 
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxMTE1MzAzLDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbLTEzMTcyNTU2NzQsNDE1NzY1NjEzXX0=
 -->
