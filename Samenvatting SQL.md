@@ -147,10 +147,15 @@ SELECT SUM(saldo) AS 'Totaal klantensaldo' FROM tblKlanten ...
 SELECT AVG(saldo) AS 'Gemiddeld klantensaldo' FROM tblKlanten ...
 SELECT MAX(saldo) AS 'Grootste klantensaldo' FROM tblKlanten ...
 SELECT MIN(saldo) AS 'Kleinste klantensaldo' FROM tblKlanten ...
+SELECT MAX(saldo) - MIN(saldo) as 'VerschilSaldo FROM tblKlanten ...
 ```
+
+#### Statische of aggregatie functies
+Gelijkaardig aan de functies voor berekeningen bij aggeg
+
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDg0MDQwNCwtOTg0NDI5OTY1LDIwNz
+eyJoaXN0b3J5IjpbMTQzNTI4NjMyNywtOTg0NDI5OTY1LDIwNz
 AwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
