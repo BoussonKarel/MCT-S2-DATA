@@ -92,12 +92,17 @@ NOT EXISTS (SELECT * FROM ...)
 
 #### Reguliere expressies
 Zie samenvatting
-
+Hoofdlettergevoelig zoeken:
+```sql
+-- Oef 3
+-- Producten met kleine c, kleine y of grote B
+WHERE productnaam Rbinary '[cyB]'
+```
 
 
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODc5ODcxMSwyMDcwMDQxNDA2LDQxNT
-c2NTYxM119
+eyJoaXN0b3J5IjpbLTEyNjYwNjQ0MTYsMjA3MDA0MTQwNiw0MT
+U3NjU2MTNdfQ==
 -->
