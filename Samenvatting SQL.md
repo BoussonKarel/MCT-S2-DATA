@@ -20,6 +20,7 @@ Om zaken te concateneren, gebruik je **CONCAT()**
 SELECT CONCAT("€ ", PrijsPerEenheid * 1.33) AS 'Nieuwe Verkoopprijs'
 # Dit wordt € 23.727200
 ```
+Het kan nodig zijn om voor weergave een datatype aan te passen. Gebruik hiervoor **CA
 
 ### Rijen selecteren met WHERE
 Via de WHERE-clausule kan je bepalen welke rijen er getoond worden, welke rijen er aan bepaalde voorwaarden moeten voldoen.
@@ -60,7 +61,7 @@ BETWEEN "2017-01-01" AND "2017-05-01"
 ```
 **LIKE**
 ```sql
-LIKE "%a_"					# zie verder
+LIKE "%a_"
 /*
 % = wild character
 _ = single character
@@ -89,10 +90,14 @@ NOT EXISTS (SELECT * FROM ...)
 #### Reguliere expressies
 ```sql
 REGEXP'[0-9]*[a-z][A-Z]'	# zie verder
+/*
+
+
+*/
 ```
 
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTcyNTU2NzQsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbMTMwNTg3ODgxOCw0MTU3NjU2MTNdfQ==
 -->
