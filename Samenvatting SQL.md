@@ -160,11 +160,17 @@ Gelijkaardig aan de functies voor berekeningen bij aggregaties bestaan er versch
  - **ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
 
 ```sql
-SE
+SELECT UPPER(Voornaam) FROM tblKlanten;
+# Dit wordt "KAREL"
+SELECT LOWER (Voornaam) FROM tblKlanten;
+# Dit wordt "karel"
+
+SELECT LEFT(Voornaam, 3) FROM tblKlanten
+
 ```
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY5NzQzNjYsLTk4NDQyOTk2NSwyMD
-cwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbMTI2OTU5NTM4NiwtOTg0NDI5OTY1LDIwNz
+AwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
