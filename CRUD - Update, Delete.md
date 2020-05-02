@@ -17,7 +17,8 @@ SET Korting = 0.25
 WHERE Voorraad >= 123;
 ```
 
-
+### Safe upate error
+Wanneer er geen PK in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzkwMzg2M119
+eyJoaXN0b3J5IjpbMTU5MzUxMzMyNCwxODkzOTAzODYzXX0=
 -->
