@@ -142,13 +142,19 @@ Daarnaast kan je ook nog je eigen functies maken als developer.
 #### Statische of aggregatie functies
 **AVG(), COUNT(), FIRST, LAST(), LAST(), MAX(), MIN(), SUM()**
 ```sql
-SELECT COUNT(klantnummer) AS 'Aantal Bruggelingen'
-FROM tblklanten
-WHERE gemeente = 'Brugge'
+SELECT AVG(saldo) AS 'Gemiddeld saldo' FROM tblKlanten ...
+
+SELECT COUNT(klantnummer) AS 'Aantal klanten' FROM tblKlanten ...
+
+SELECT MAX(klantnummer) AS 'Aantal klanten' FROM tblKlanten ...
+
+SELECT MIN(klantnummer) AS 'Aantal klanten' FROM tblKlanten ...
+
+SELECT COUNT(klantnummer) AS 'Aantal klanten' FROM tblKlanten ...
 ```
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMzI1Mjk3LC05ODQ0Mjk5NjUsMjA3MD
+eyJoaXN0b3J5IjpbLTM1MjY5MDY3LC05ODQ0Mjk5NjUsMjA3MD
 A0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
