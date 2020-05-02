@@ -98,10 +98,24 @@ Hoofdlettergevoelig zoeken:
 WHERE Productnaam REGEXP BINARY '[cyB]'
 ```
 
+### Resultaten sorteren met ORDER BY
+Met **ORDER BY** kun je de volgorde vd rijen aanpasen.
+Standaard is dit ASC (oplopend). Je kan dit ook DESC (oplopend) sorteren door dit mee te geven.
+```sql
+ORDER B
+```
 
+```sql
+-- Producten met kleine c, kleine y of grote B
+WHERE Productnaam REGEXP BINARY '[cyB]'
+```
 
+```sql
+-- Producten met kleine c, kleine y of grote B
+WHERE Productnaam REGEXP BINARY '[cyB]'
+```
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk2NjUyNTQsMjA3MDA0MTQwNiw0MT
-U3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbMTQwNDk0MzIwOSwyMDcwMDQxNDA2LDQxNT
+c2NTYxM119
 -->
