@@ -102,19 +102,17 @@ WHERE Productnaam REGEXP BINARY '[cyB]'
 Met **ORDER BY** kun je de volgorde vd rijen aanpasen.
 Standaard is dit ASC (oplopend). Je kan dit ook DESC (oplopend) sorteren door dit mee te geven.
 ```sql
-ORDER BY Productnaam		# Eerst A
+ORDER BY Productnaam				# A --> Z
+
+ORDER BY Saldo DESC 				# Hoog --> Laag
+
+ORDER BY Familienaam, Voornaam		# Eerst op familienaam, dan op voornaam
 ```
 
-```sql
-ORDER BY Saldo DESC 		# Hoog --> Laag
-```
+### Resultaten beperken met LIMIT
 
-```sql
--- Producten met kleine c, kleine y of grote B
-WHERE Productnaam REGEXP BINARY '[cyB]'
-```
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5MzE5NzY2LDIwNzAwNDE0MDYsNDE1Nz
-Y1NjEzXX0=
+eyJoaXN0b3J5IjpbLTQ1NTk2MTE2OSwyMDcwMDQxNDA2LDQxNT
+c2NTYxM119
 -->
