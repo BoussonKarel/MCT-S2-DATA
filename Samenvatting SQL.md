@@ -252,13 +252,19 @@ SELECT
 FROM tblWerknemers
 ORDER BY FIELD(`Man/Vrouw`,'Man','Vrouw','?'), Familienaam;
 ```
-
+**IF()** kan je gebruiken als er slechts 2 keuzes zijn.
 ```sql
 SELECT
 	Familienaam, Voornaam,
-	IF(auto = 0, "HEEFT GEEN AUTO", "HEEFT WEL EEN AUTO") AS "
+	IF(auto = 0, "HEEFT GEEN AUTO", "HEEFT WEL EEN AUTO") AS "Firmawagen?"
+FROM tblWerknemers;
 ```
+
+## SELECT om waarden te selecteren uit MEERDERE tabellen
+### Inleiding
+Zie samenvatting
+### Soor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2OTYyMzg1LC0xMjYyMTg0ODIxLC05OD
-Q0Mjk5NjUsMjA3MDA0MTQwNiw0MTU3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbNTIyMDU0MTUsLTEyNjIxODQ4MjEsLTk4ND
+QyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
 -->
