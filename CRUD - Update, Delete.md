@@ -48,8 +48,10 @@ Bij een DELETE op de parent worden `alle gerelateerde keyvelden op NULL geplaats
 _Voorbeeld: Verwijderen van de categorie verwijdert de producten niet. Categorienummer staat bij de producten op NULL_
 
 **No Action** [DEFAULT]
-Parent record kan niet worden verwijderd als er nog kinderen zij
-_Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die categorie bestaan._
+Parent record kan niet worden verwijderd als er nog kinderen zijn.
+_In MySQL doet dit hetzelfde als RESTRICT_
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzY1NDA1MiwxODkzOTAzODYzXX0=
+eyJoaXN0b3J5IjpbMTcyNTgyMjkzOSwxODkzOTAzODYzXX0=
 -->
