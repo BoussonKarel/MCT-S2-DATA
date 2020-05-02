@@ -160,11 +160,11 @@ Gelijkaardig aan de functies voor berekeningen bij aggregaties bestaan er versch
  - **ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
 
 ```sql
-
+SE
 ```
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg0Nzg1NzYsLTk4NDQyOTk2NSwyMD
+eyJoaXN0b3J5IjpbLTE5MzY5NzQzNjYsLTk4NDQyOTk2NSwyMD
 cwMDQxNDA2LDQxNTc2NTYxM119
 -->
