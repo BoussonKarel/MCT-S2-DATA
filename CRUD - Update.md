@@ -9,6 +9,14 @@ UPDATE tabel
 SET kolom1 = x, kolom2 = y, kolom3 = z
 WHERE voorwaarde;
 ```
+Kan ook gecombineerd worden met JOINs
+```sql
+UPDATE tblproducten as P
+JOIN tblorderinformatie as OI
+ON P.Productnummer = OI.Productnummer
+SET Korting = 0.25
+WHERE Voorraad >= 123;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTk0NzY2Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTMwODUxOTgwNSw3MzA5OTgxMTZdfQ==
 -->
