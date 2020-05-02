@@ -241,8 +241,18 @@ HAVING SUM(InBestelling) > 10
 ### Controlestructuren in SELECT statements
 De SELECT expressie kan opgebouwd worden met controle structuren. Dit kunnen zowel conditionele **IF()**, **IFNULL()** als lus structiren zijn (**CASE**).
 
-**CASE** is vooral
+**CASE** is vooral handig wanneer de data onbegrijpbaar is voor de gebruiker en je dit wil vervangen door een meningsvolle weergave.
+```sql
+SELECT
+	CASE GESLACHT
+		WHEN '1' THEN 'Vrouw'
+		WHEN '2' THEN 'Man'
+	END AS `Man/vrouw",
+	Familienaam
+FROM tblWerknemers
+ORDER BY FIELD(
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2NzQzMDEyLC0xMjYyMTg0ODIxLC05OD
-Q0Mjk5NjUsMjA3MDA0MTQwNiw0MTU3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbLTE2NTgyNzEwMDksLTEyNjIxODQ4MjEsLT
+k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
 -->
