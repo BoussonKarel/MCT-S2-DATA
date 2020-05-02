@@ -33,7 +33,11 @@ LIMIT(5)
 # Eerste 5 verwijderen
 ```
 ### Delete van records en relaties
-Indien er een één-op-veel relatie is tussen twee tabellen kan bij het verwijderen aan de één-zijde een actie worden uitgevoerd aan de veel zijde van de relatie. Wat in
+Indien er een één-op-veel relatie is tussen twee tabellen kan bij het verwijderen aan de één-zijde een actie worden uitgevoerd aan de veel zijde van de relatie. Wat in de gerelateerde tabel al dan niet verwijderd wordt, hangt echter af van de definitie van de relatie.
+
+**Restrict** [DEFAULT]
+DELETE op de parent wordt verhinderd als er nog gerelateerde records bestaan in de child tabel.
+__Bijvoorb
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ5OTcwODgsMTg5MzkwMzg2M119
+eyJoaXN0b3J5IjpbMTg4MDYxNDk2MywxODkzOTAzODYzXX0=
 -->
