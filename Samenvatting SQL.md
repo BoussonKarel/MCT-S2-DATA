@@ -110,9 +110,25 @@ ORDER BY Familienaam, Voornaam		# Eerst op familienaam, dan op voornaam
 ```
 
 ### Resultaten beperken met LIMIT
+Met limit beperk je hoeveel rijen er getoond worden
+```sql
+LIMIT 5
+```
+
+### Dubbele gegevens filteren met DISTINCT
+```sql
+SELECT DISTINCT Gemeente
+FROM tblKlanten
+ORDER BY Gemeente;
+```
+
+### Ingebouwde functies
+
+
+
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTk2MTE2OSwyMDcwMDQxNDA2LDQxNT
+eyJoaXN0b3J5IjpbMTY4NTE0OTAzMSwyMDcwMDQxNDA2LDQxNT
 c2NTYxM119
 -->
