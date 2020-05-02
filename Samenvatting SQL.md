@@ -155,7 +155,9 @@ Gelijkaardig aan de functies voor berekeningen bij aggregaties bestaan er versch
 
 **Overzicht**
 
- - LEFT - RIGHT - SUBTRING - LTRIM - RTRIM 
+ - **LEFT - RIGHT - SUBTRING - LTRIM - RTRIM - UPPER - LOWER** zijn scalar functies op string types
+ - **CURRENT_DATE - NOW() - TIMESTAMPDIFF  - DATEDIFF - WEEK()** zijn scalar functies op datum types
+ - **ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
 
 ```sql
 
@@ -163,6 +165,6 @@ Gelijkaardig aan de functies voor berekeningen bij aggregaties bestaan er versch
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MDI1NjgyLC05ODQ0Mjk5NjUsMjA3MD
-A0MTQwNiw0MTU3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbLTEyNTg0Nzg1NzYsLTk4NDQyOTk2NSwyMD
+cwMDQxNDA2LDQxNTc2NTYxM119
 -->
