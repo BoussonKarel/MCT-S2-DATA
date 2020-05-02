@@ -170,20 +170,19 @@ SELECT RIGHT(Voornaam, 3) FROM tblKlanten
 LTRIM() en RTRIM() verwijderen spaties (links/rechts)
 ```
 
-**CURRENT_DATE - NOW() - TIMESTAMPDIFF  - DATEDIFF - WEEK()** zijn scalar functies op datum types
+**CURRENT_DATE() - NOW() - TIMESTAMPDIFF()  - DATEDIFF() - WEEK()** zijn scalar functies op datum types
 Rekenen met datums: DATE_ADD, DATEDIFF, TIMESTAMPDIFF
 ```sql
 SELECT DATE_ADD(Vervaldatum, INTERVAL 1 DAY) FROM tblOrders;
 SELECT "2016-10-12" + INTERVAL 1 DAY;		# Geeft geen fout weer bij verkeerde datum!
+
+SELECT DAYNAME(Vervaldatum) ...			# Returnt Monday / Tuesday / ...
 ```
 
 **ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
-```sql
 
-```
 
-WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODk0Njg5OCwtOTg0NDI5OTY1LDIwNz
+eyJoaXN0b3J5IjpbLTQ3NzA0NjI5MCwtOTg0NDI5OTY1LDIwNz
 AwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
