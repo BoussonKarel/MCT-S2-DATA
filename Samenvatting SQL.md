@@ -214,7 +214,13 @@ ORDER BY Gemeente
 # Kortrijk	-	20
 ```
 
+In plaats van WHERE kan je ook **HAVING** gebruiken.
+Het verschil is dat met _HAVING_ eerst alle data wort opgehaald met een eerste query en nadien de filtering gebeurd met een tweede instructie.
+
+```sql
+WHERE SUM(
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTM0MjQ0NzMsLTEyNjIxODQ4MjEsLT
-k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbMTQxNzcwMjUwNCwtMTI2MjE4NDgyMSwtOT
+g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
