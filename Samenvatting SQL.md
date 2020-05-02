@@ -285,14 +285,14 @@ WHERE WerknemerID NOT IN(SELECT DISTINCT WerknemerID FROM tblorders);
 -- Klanten die nog niets hebben besteld
 SELECT Naam
 FROM tblklanten
-WHERE NOT EXISTS (
-	SELECT * FROM tblOrders
-	WHERE tblOrders.Klantnummer = tblklanten.Klantnummer
-	)
+WHERE NOT EXISTS (SELECT * FROM tblOrders WHERE tblOrders.Klantnummer = tblklanten.Klantnummer)
 ```
 
+### Joins
+```sql
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzcxNzYzODQsLTEyNjIxODQ4MjEsLT
-k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbMTQxNTk1NTI4NCwtMTI2MjE4NDgyMSwtOT
+g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
