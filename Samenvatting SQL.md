@@ -266,10 +266,19 @@ Zie samenvatting voor info over **tabellen en relaties**, **soorten joins**...
 ### Subquery
 Een subquery komt altijd **tussen haakjes** vooafgegaan door een andere aanroepende tabelexpressie. Het keyword is meestal **IN**, **NOT IN**, **WHERE EXISTS** of **WHERE NOT EXISTS**, maar kan ook een WHERE zijn.
 
-```
+```sql
+-- Klanten met toevallig dezelfde naam als een werknemer
+SELECT Naam, Gemeente, Postnr, Straat
+FROM tblklanten
+WHERE Naam IN(SELECT Familienaam FROM tblWerknemers WHERE Familienaam = Naam);
 
+-- Werknemers die nooit een bestelling opmaakten
+SELECT concat(Voornaam, " ", Familienaam) as `Volledige naam`
+FROM tblwerknemers
+WHERE WerknemerID NOT IN(SELECT DISTINCT WerknemerID FROM tblorders);
+-- 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjUyMzE2MywtMTI2MjE4NDgyMSwtOT
+eyJoaXN0b3J5IjpbMTQ5OTYyODIyNywtMTI2MjE4NDgyMSwtOT
 g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
