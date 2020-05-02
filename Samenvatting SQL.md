@@ -133,13 +133,17 @@ ORDER BY Gemeente;
 ```
 
 ### Ingebouwde functies
-**Aggregatie**functies zijn functies voor wiskundige berekeningen op één of meerdere cijfers.
+**Aggregaties** functies zijn functies voor wiskundige berekeningen op één of meerdere cijfers.
 **Scalar** zijn functies voor wiskundige berekeningen op één of meerdere cijfers.
 
+werken op een enkelvoudig element in (meestal een string)
+Daarnaast kan je ook nog je eigen functies maken als developer.
+
+#### Statische of aggregatie functies
 
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNT
-c2NTYxM119
+eyJoaXN0b3J5IjpbMTEyMTk5MTA0MSwtOTg0NDI5OTY1LDIwNz
+AwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
