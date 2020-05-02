@@ -185,11 +185,15 @@ ORDER BY FIELD(DAYNAME(Indienst),'Monday', 'Tuesday', 'Wednesday', 'Thursday', '
 ### IS NULL, ISNULL en IFNULL()
 NULL is helemaal niets en dus niet te verwarren met een ledige string
 ```sql
-IFNULL(expr1, expr2)		# Geeft waarde van expr2 terug als expr
+IFNULL(expr1, expr2)
+# = controlestructuur.
+# Geeft expr2 terug als de waarde van expr1 NULL is
 
 ISNULL(expr1)
+# = functie die controleert of expr1 al dan niet NULL is en dan 0 teruggeeft
+# 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5Mzg4Mzk2LC05ODQ0Mjk5NjUsMjA3MD
+eyJoaXN0b3J5IjpbNjMwODk0MjkyLC05ODQ0Mjk5NjUsMjA3MD
 A0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
