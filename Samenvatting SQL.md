@@ -216,7 +216,7 @@ ORDER BY Gemeente
 SELECT YEAR(Orderdatum) as 'JAARTAL' , FORMAT(AVG(DATEDIFF(leverdatum, orderdatum)),0) as "LEVERTERMIJN"
 FROM tblOrders
 GROUP BY YEAR(Orderdatum);
-/* JAARTAL	-	LEVERTERMIJN */
+-- JAARTAL	-	LEVERTERMIJN
 # 2003		-	10
 # 2004		-	9
 # 2005		-	9
@@ -226,7 +226,7 @@ GROUP BY YEAR(Orderdatum);
 In plaats van WHERE kan je ook **HAVING** gebruiken.
 Het verschil is dat met _HAVING_ eerst alle data wort opgehaald met een eerste query en nadien de filtering gebeurd met een tweede instructie.
 
-**Wanneer noodzakelijk?**
+**Wanneer is dit noodzakelijk?**
 Een HAVING laat toe om een voorwaarde met een aggregatie functie op te nemen in zijn groepering.
 ```sql
 # Werkt niet!
@@ -237,7 +237,12 @@ GROUP BY Productnummer
 GROUP BY Productnummer
 HAVING SUM(InBestelling) > 10
 ```
+
+### Controlestructuren in SELECT statements
+De SELECT expressie kan opgebouwd worden met controle structuren. Dit kunnen zowel conditionele **IF()**, **IFNULL()** als lus structiren zijn (**CASE**).
+
+**CASE** is vooral
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzMyMTA0ODIsLTEyNjIxODQ4MjEsLT
-k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbODk2NzQzMDEyLC0xMjYyMTg0ODIxLC05OD
+Q0Mjk5NjUsMjA3MDA0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
