@@ -247,12 +247,18 @@ SELECT
 	CASE GESLACHT
 		WHEN '1' THEN 'Vrouw'
 		WHEN '2' THEN 'Man'
-	END AS `Man/vrouw",
+	END AS `Man/Vrouw`,
 	Familienaam
 FROM tblWerknemers
-ORDER BY FIELD(
+ORDER BY FIELD(`Man/Vrouw`,'Man','Vrouw','?'), Familienaam;
+```
+
+```sql
+SELECT
+	Familienaam, Voornaam,
+	IF(auto = 0, "HEEFT GEEN AUTO", "HEEFT WEL EEN AUTO") AS "
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTgyNzEwMDksLTEyNjIxODQ4MjEsLT
-k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbNTE2OTYyMzg1LC0xMjYyMTg0ODIxLC05OD
+Q0Mjk5NjUsMjA3MDA0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
