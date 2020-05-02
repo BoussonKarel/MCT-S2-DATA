@@ -7,6 +7,7 @@ WHERE
 GROUP BY
 HAVING
 ORDER BY
+LIMIT
 ```
 
 ## SELECT om waarden te selecteren uit 1 tabel
@@ -212,13 +213,19 @@ ORDER BY Gemeente
 # Brugge	-	80
 # Gent		-	10
 # Kortrijk	-	20
+
+SELECT YEAR(Orderdatum) as 'JAARTAL' , concat(FORMAT(AVG(DATEDIFF(leverdatum, orderdatum)),0), " dagen") as "LEVERTERMIJN"
+FROM tblOrders
+GROUP BY YEAR(Orderdatum);
+# 2003		- 10 dagen
+# 2004	
 ```
 
 In plaats van WHERE kan je ook **HAVING** gebruiken.
 Het verschil is dat met _HAVING_ eerst alle data wort opgehaald met een eerste query en nadien de filtering gebeurd met een tweede instructie.
 
 **Wanneer noodzakelijk?**
-Having laat toe om een voorwaarde met een aggregatie functie op te nemen in zijn groepering.
+Een HAVING laat toe om een voorwaarde met een aggregatie functie op te nemen in zijn groepering.
 ```sql
 # Werkt niet!
 WHERE SUM(InBestelling) > 10
@@ -229,6 +236,6 @@ GROUP BY Productnummer
 HAVING SUM(InBestelling) > 10
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjQwNDYyMSwtMTI2MjE4NDgyMSwtOT
-g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbLTE5ODc2MTMwMDMsLTEyNjIxODQ4MjEsLT
+k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
 -->
