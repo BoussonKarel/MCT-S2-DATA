@@ -61,11 +61,17 @@ VALUES (NULL, "De beschrijving", "Categorienaam");
 -- NULL is in dit geval de PK (auto increment)
 ```
 
-### Gegevens toevoegne uit andere tabel
+### Gegevens toevoegen uit andere tabel
+```sql
+INSERT INTO tblwerknemers(Familienaam, Adres, Gemeente, Postcode)
+	SELECT naam, straat, gemeente, postnr
+	FROM tblKlanten
+	WHERE gemeente= 'Herent'
 ```
 
+### Nieuwe tabel op basis van een andere tabel
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk0ODk3NTAsODE1MjMzNjA0LDE3Mj
-U4MjI5MzldfQ==
+eyJoaXN0b3J5IjpbMjEwMzcyNzQ2MSw4MTUyMzM2MDQsMTcyNT
+gyMjkzOV19
 -->
