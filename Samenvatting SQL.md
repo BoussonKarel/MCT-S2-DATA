@@ -190,10 +190,12 @@ IFNULL(expr1, expr2)
 # Geeft expr2 terug als de waarde van expr1 NULL is
 
 ISNULL(expr1)
-# = functie die controleert of expr1 al dan niet NULL is en dan 0 teruggeeft
-# 
+# Geeft 0 terug als expr1 NULL is en dus 1 in het ander geval.
+# Handig om bijvoorbeeld NULL naar 0 om te zetten bij sorteren
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwODk0MjkyLC05ODQ0Mjk5NjUsMjA3MD
-A0MTQwNiw0MTU3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbLTEyNjIxODQ4MjEsLTk4NDQyOTk2NSwyMD
+cwMDQxNDA2LDQxNTc2NTYxM119
 -->
