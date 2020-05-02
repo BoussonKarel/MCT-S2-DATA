@@ -82,26 +82,10 @@ Category is NOT NULL
 EXISTS (SELECT * FROM ...)
 NOT EXISTS (SELECT * FROM ...)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Reguliere expres
 
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbNDkxMTE1MzAzLDQxNTc2NTYxM119
 -->
