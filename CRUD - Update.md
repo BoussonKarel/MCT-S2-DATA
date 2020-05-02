@@ -12,11 +12,13 @@ WHERE voorwaarde;
 Kan ook gecombineerd worden met JOINs
 ```sql
 UPDATE tblproducten as P
-JOIN tblorderinformatie as OI
-ON P.Productnummer = OI.Productnummer
+JOIN tblorderinformatie as OI ON P.Productnummer = OI.Productnummer
 SET Korting = 0.25
 WHERE Voorraad >= 123;
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODUxOTgwNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTg5MzkwMzg2MywxMzA4NTE5ODA1LDczMD
+k5ODExNl19
 -->
