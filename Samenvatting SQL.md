@@ -264,8 +264,12 @@ FROM tblWerknemers;
 ### Inleiding
 Zie samenvatting voor info over **tabellen en relaties**, **soorten joins**...
 ### Subquery
-Een subquery komt altijd **tussen haakjes** vooafgegaan door een andere aanroepende tabelexpressie. Hey keyword is meestal **IN, NOT 
+Een subquery komt altijd **tussen haakjes** vooafgegaan door een andere aanroepende tabelexpressie. Het keyword is meestal **IN**, **NOT IN**, **WHERE EXISTS** of **WHERE NOT EXISTS**, maar kan ook een WHERE zijn.
+
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk4MDA3NDEsLTEyNjIxODQ4MjEsLT
-k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbMTk0NjUyMzE2MywtMTI2MjE4NDgyMSwtOT
+g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
