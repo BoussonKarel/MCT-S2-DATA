@@ -27,9 +27,13 @@ Wanneer er geen PK in de WHERE-clausula staat kan dit aan foutmelding geven. Dit
 DELETE FROM tabelnaam
 WHERE voorwaarde;
 
-DEL
+DELETE FROM tabelnaam
+WHERE voorwaarde
+LIMIT(5)
+# Eerste 5 verwijderen
 ```
-
+### Delete van records en relaties
+Indien er een één-op-veel relatie is tussen twee tabellen kan bij het verwijderen aan de één-zijde een actie worden uitgevoerd aan de veel zijde van de relatie. Wat in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODYzODM0MiwxODkzOTAzODYzXX0=
+eyJoaXN0b3J5IjpbLTE5NzQ5OTcwODgsMTg5MzkwMzg2M119
 -->
