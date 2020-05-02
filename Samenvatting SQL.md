@@ -141,10 +141,14 @@ Daarnaast kan je ook nog je eigen functies maken als developer.
 
 #### Statische of aggregatie functies
 **AVG(), COUNT(), FIRST, LAST(), LAST(), MAX(), MIN(), SUM()**
-
+```sql
+SELECT COUNT(klantnummer) AS 'Aantal Bruggelingen'
+FROM tblklanten
+WHERE gemeente = 'Brugge'
+```
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDU1Mzk2NiwtOTg0NDI5OTY1LDIwNz
-AwNDE0MDYsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbNDQwMzI1Mjk3LC05ODQ0Mjk5NjUsMjA3MD
+A0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
