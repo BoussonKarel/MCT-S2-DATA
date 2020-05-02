@@ -18,7 +18,7 @@ WHERE Voorraad >= 123;
 ```
 
 ### Safe update error
-Wanneer er geen PK in de WHERE-clausula staat kan dit aan foutmelding geven. Dit kan je op meerdere manieren oplossen:
+Wanneer er geen PK in de WHERE-clausule staat kan dit aan foutmelding geven. Dit kan je op meerdere manieren oplossen:
  1. Plaats je **editor in unsafe mode** (Edit >> Preferences >> SQL Editor).
  2. **Voeg de PK toe** aan de WHERE statement met een voorwaarde die **altijd waar** is (bv. 'AND Klantnummer > 0').
 
@@ -82,6 +82,6 @@ CREATE TABLE tblParticulieren
 ### Nieuwe waarden toevoegen en relaties
 Je kan een bijvoorbeeld categorienummer niet toevoegen aan een product als die categorie nog niet bestaat!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NDAxNzA4LDgxNTIzMzYwNCwxNzI1OD
-IyOTM5XX0=
+eyJoaXN0b3J5IjpbODc0OTIyMzQ0LDk0NzQwMTcwOCw4MTUyMz
+M2MDQsMTcyNTgyMjkzOV19
 -->
