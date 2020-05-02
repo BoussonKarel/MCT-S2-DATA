@@ -169,7 +169,6 @@ SELECT RIGHT(Voornaam, 3) FROM tblKlanten
 
 LTRIM() en RTRIM() verwijderen spaties (links/rechts)
 ```
-
 **CURRENT_DATE() - NOW() - TIMESTAMPDIFF()  - DATEDIFF() - WEEK()** zijn scalar functies op datum types
 Rekenen met datums: DATE_ADD, DATEDIFF, TIMESTAMPDIFF
 ```sql
@@ -181,11 +180,11 @@ SELECT DAYOFWEEK(Vervaldatum)			# Returnt 1 - 7 (Opgelet! Zondag = 1)
 
 ORDER BY FIELD(DAYNAME(Indienst),'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday' , 'Saturday', 'Sunday')
 ```
-
 **ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
 
-
+### IS NULL, ISNULL en IFNULL()
+NULL is helemaal niets en dus niet te verwarren met een ledige string
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc2ODc1MjksLTk4NDQyOTk2NSwyMD
-cwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbLTM2Njg1ODkxNCwtOTg0NDI5OTY1LDIwNz
+AwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
