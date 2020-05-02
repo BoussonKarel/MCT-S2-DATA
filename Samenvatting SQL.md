@@ -289,13 +289,22 @@ WHERE NOT EXISTS (SELECT * FROM tblOrders WHERE tblOrders.Klantnummer = tblklant
 ```
 
 ### Joins
-**ON** zorgt voor een perfecte vertaling van de relatie door de twee kolommen van de relatie op te halen en aan elkaar gelijk te stellen
 ```sql
-SELECT tblProducten.*, tblCategorieen.categorienummer AS CategoryID
-FROM tblProducten as P
-JOIN tblCategorieen as C ON C.categorienummer = P.categorienummer
+SELECT
+	k.naam AS klantnaam,
+	w.familienaam as werknemernaam,
+	p.nederlandsenaam,
+	o.orderdatum as 'besteld op',
+	i.hoeveelheid AS aantal
+FROM tblWerknemers AS w
+JOIN tblOrders AS o ON w.werknemerID = o.werknemerID
+JOIN tblKlanten AS k ON k.klantnummer = o.klantnummer
+JOIN tblOrderinformatie AS i ON i.orderID = o.orderid
+JOIN tblProducten AS p ON i.Productnummer = p.productnummer
 ```
+**ON** zorgt voor een perfecte vertaling van de relatie door de twee kolommen van de relatie op te halen en aan elkaar gelijk te stellen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjEwNTE4LC0xMjYyMTg0ODIxLC05OD
-Q0Mjk5NjUsMjA3MDA0MTQwNiw0MTU3NjU2MTNdfQ==
+eyJoaXN0b3J5IjpbLTE5NjgxNzI2MTMsLTk5MjEwNTE4LC0xMj
+YyMTg0ODIxLC05ODQ0Mjk5NjUsMjA3MDA0MTQwNiw0MTU3NjU2
+MTNdfQ==
 -->
