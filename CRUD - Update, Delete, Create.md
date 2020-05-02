@@ -55,7 +55,17 @@ _In MySQL doet dit hetzelfde als RESTRICT_
 ```sql
 INSERT INTO tblWerknemers (Familienaam, Voornaam)
 VALUES ("Bousson", "Karel");
+
+INSERT INTO tblCategorieen
+VALUES (NULL, "De beschrijving", "Categorienaam");
+-- NULL is in dit geval de PK (auto increment)
 ```
+
+### Gegevens toevoegne uit andere tabel
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1MjMzNjA0LDE3MjU4MjI5MzldfQ==
+eyJoaXN0b3J5IjpbLTIwNzk0ODk3NTAsODE1MjMzNjA0LDE3Mj
+U4MjI5MzldfQ==
 -->
