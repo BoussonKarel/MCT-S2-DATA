@@ -41,15 +41,15 @@ _Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die c
 
 **Cascade** [DEFAULT]
 Bij een DELETE op de parent worden `ook alle gerelateerde records verwijderd` zonder waarschuwing.
-_Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die categorie bestaan._
+_Voorbeeld: Verwijderen van de categorie Speelgoed verwijdert alle ._
 
 **Set Null** [DEFAULT]
-DELETE op de parent wordt verhinderd als er nog gerelateerde records bestaan in de child tabel.
+Bij een DELETE op de parent worden `alle gerelateerde keyvelden op NULL geplaatst`. Zo blijft de data van de andere velden in het gerelateerde record ongewijzigd.
 _Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die categorie bestaan._
 
 **Restrict** [DEFAULT]
 DELETE op de parent wordt verhinderd als er nog gerelateerde records bestaan in de child tabel.
 _Voorbeeld: Je kan een categorie niet verwijderen als er nog producten van die categorie bestaan._
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA0NzUyNDgsMTg5MzkwMzg2M119
+eyJoaXN0b3J5IjpbLTQ4ODgxMDYwMSwxODkzOTAzODYzXX0=
 -->
