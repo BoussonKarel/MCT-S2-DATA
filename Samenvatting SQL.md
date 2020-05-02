@@ -208,17 +208,19 @@ SELECT Gemeente, SUM(Saldo) 	# Aggregatie functie SUM()
 FROM tblKlanten
 GROUP BY Gemeente
 ORDER BY Gemeente
-
-# Gemeente	-	SUM(saldo)
+-- Gemeente	-	SUM(saldo)
 # Brugge	-	80
 # Gent		-	10
 # Kortrijk	-	20
 
-SELECT YEAR(Orderdatum) as 'JAARTAL' , concat(FORMAT(AVG(DATEDIFF(leverdatum, orderdatum)),0), " dagen") as "LEVERTERMIJN"
+SELECT YEAR(Orderdatum) as 'JAARTAL' , FORMAT(AVG(DATEDIFF(leverdatum, orderdatum)),0) as "LEVERTERMIJN"
 FROM tblOrders
 GROUP BY YEAR(Orderdatum);
-# 2003		- 10 dagen
-# 2004	
+/* JAARTAL	-	LEVERTERMIJN */
+# 2003		-	10
+# 2004		-	9
+# 2005		-	9
+# 2006		-	8
 ```
 
 In plaats van WHERE kan je ook **HAVING** gebruiken.
@@ -236,6 +238,6 @@ GROUP BY Productnummer
 HAVING SUM(InBestelling) > 10
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc2MTMwMDMsLTEyNjIxODQ4MjEsLT
+eyJoaXN0b3J5IjpbLTExNzMyMTA0ODIsLTEyNjIxODQ4MjEsLT
 k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
 -->
