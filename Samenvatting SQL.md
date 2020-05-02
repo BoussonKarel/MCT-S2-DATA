@@ -173,8 +173,8 @@ LTRIM() en RTRIM() verwijderen spaties (links/rechts)
 **CURRENT_DATE - NOW() - TIMESTAMPDIFF  - DATEDIFF - WEEK()** zijn scalar functies op datum types
 Rekenen met datums: DATE_ADD, DATEDIFF, TIMESTAMPDIFF
 ```sql
-SELECT DATE_ADD(Vervaldatum, INTERVAL 1 DAY) FROM tblOrders
-SELECT Vervaldatum + interva
+SELECT DATE_ADD(Vervaldatum, INTERVAL 1 DAY) FROM tblOrders;
+SELECT "2016-10-12" + INTERVAL 1 DAY;		# Geeft geen fout weer bij verkeerde datum!
 ```
 
 **ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
@@ -184,6 +184,6 @@ SELECT Vervaldatum + interva
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY3Njc1MjEsLTk4NDQyOTk2NSwyMD
-cwMDQxNDA2LDQxNTc2NTYxM119
+eyJoaXN0b3J5IjpbMTA0ODk0Njg5OCwtOTg0NDI5OTY1LDIwNz
+AwNDE0MDYsNDE1NzY1NjEzXX0=
 -->
