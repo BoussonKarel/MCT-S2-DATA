@@ -158,6 +158,7 @@ Gelijkaardig aan de functies voor berekeningen bij aggregaties bestaan er versch
  - **LEFT - RIGHT - SUBTRING - LTRIM - RTRIM - UPPER - LOWER** zijn scalar functies op string types
  - **CURRENT_DATE - NOW() - TIMESTAMPDIFF  - DATEDIFF - WEEK()** zijn scalar functies op datum types
  - **ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
+Scalar functies op string types
 
 ```sql
 SELECT UPPER(Voornaam) FROM tblKlanten;
@@ -166,11 +167,15 @@ SELECT LOWER (Voornaam) FROM tblKlanten;
 # Dit wordt "karel"
 
 SELECT LEFT(Voornaam, 3) FROM tblKlanten
+# Dit wordt "Kar"
+SELECT RIGHT(Voornaam, 3) FROM tblKlanten
+# Dit wordt "rel"
 
+LTRIM() en RTRIM() verwijderen spaties (links/rechts)
 ```
 
 WHERE YEAR(Geboortedatum) < 1950
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTU5NTM4NiwtOTg0NDI5OTY1LDIwNz
-AwNDE0MDYsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbNjAxNDk5OTgwLC05ODQ0Mjk5NjUsMjA3MD
+A0MTQwNiw0MTU3NjU2MTNdfQ==
 -->
