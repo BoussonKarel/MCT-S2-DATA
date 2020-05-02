@@ -177,12 +177,15 @@ SELECT DATE_ADD(Vervaldatum, INTERVAL 1 DAY) FROM tblOrders;
 SELECT "2016-10-12" + INTERVAL 1 DAY;		# Geeft geen fout weer bij verkeerde datum!
 
 SELECT DAYNAME(Vervaldatum) ...			# Returnt Monday / Tuesday / ...
+SELECT DAYOFWEEK(Vervaldatum)			# Returnt 1 - 7 (Opgelet! Zondag = 1)
+
+ORDER BY FIELD(DAYNAME(Indienst),'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday' , 'Saturday', 'Sunday')
 ```
 
 **ROUND - PI - POWER - ISNULL** zijn scalar functies op numerieke types
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzA0NjI5MCwtOTg0NDI5OTY1LDIwNz
-AwNDE0MDYsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbLTE4NDc2ODc1MjksLTk4NDQyOTk2NSwyMD
+cwMDQxNDA2LDQxNTc2NTYxM119
 -->
