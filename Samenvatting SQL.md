@@ -268,7 +268,7 @@ Een subquery komt altijd **tussen haakjes** vooafgegaan door een andere aanroepe
 
 ```sql
 -- Producten waarvan de voorraadwaarde > laagste brutoloon
-SELECT Nederlandsenaam, PrijsPerEenheid, Voorraad, (PrijsPerEenheid * Voorraad) as `Voorraadwaarde`
+SELECT Nederlandsenaam, (PrijsPerEenheid * Voorraad) as `Voorraadwaarde`
 FROM tblproducten
 WHERE (prijspereenheid * voorraad) > (SELECT min(brutowedde) from tblwerknemers);
 
@@ -281,10 +281,18 @@ WHERE Naam IN(SELECT Familienaam FROM tblWerknemers WHERE Familienaam = Naam);
 SELECT concat(Voornaam, " ", Familienaam) as `Volledige naam`
 FROM tblwerknemers
 WHERE WerknemerID NOT IN(SELECT DISTINCT WerknemerID FROM tblorders);
+
+-- Klanten die nog niets hebben besteld
+SELECT Naam
+FROM tblklanten
+WHERE NOT EXISTS (
+	SELECT * FROM tblOrders
+	WHERE tblOrders.Klantnummer = tblklanten.Klantnummer
+	)
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTgzNDMyMCwtMTI2MjE4NDgyMSwtOT
-g0NDI5OTY1LDIwNzAwNDE0MDYsNDE1NzY1NjEzXX0=
+eyJoaXN0b3J5IjpbLTE2MzcxNzYzODQsLTEyNjIxODQ4MjEsLT
+k4NDQyOTk2NSwyMDcwMDQxNDA2LDQxNTc2NTYxM119
 -->
