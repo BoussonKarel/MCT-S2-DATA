@@ -248,6 +248,7 @@ SELECT
 	CASE GESLACHT
 		WHEN '1' THEN 'Vrouw'
 		WHEN '2' THEN 'Man'
+		ELSE '?'
 	END AS `Man/Vrouw`,
 	Familienaam
 FROM tblWerknemers
