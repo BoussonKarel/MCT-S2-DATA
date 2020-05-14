@@ -2,7 +2,8 @@
 ## De SQL volgorde!
 ```sql
 SELECT
-FROM + JOIN
+FROM
+JOIN ... ON
 WHERE
 GROUP BY
 HAVING
