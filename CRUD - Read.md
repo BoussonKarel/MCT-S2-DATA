@@ -67,6 +67,7 @@ IN(SELECT Naam From ...)
 ```
 **BETWEEN** (buitenwaarden inbegrepen)
 _≈ Meerdere OR statements_
+OPGELET: DATA STAAT STANDAARD OP 00:00:00, dus bij de laatste datum in de BETWEEN neemt hij niets na 00:00:00
 ```sql
 BETWEEN "2017-01-01" AND "2017-05-01"
 ```
