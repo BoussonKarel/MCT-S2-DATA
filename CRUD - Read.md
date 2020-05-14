@@ -133,7 +133,6 @@ ORDER BY Gemeente;
 
 ### Ingebouwde functies
 **Aggregaties** functies zijn functies voor wiskundige berekeningen op één of meerdere cijfers.
-**Scalar** zijn functies voor wiskundige berekeningen op één of meerdere cijfers.
 
 werken op een enkelvoudig element in (meestal een string)
 Daarnaast kan je ook nog je eigen functies maken als developer.
@@ -150,7 +149,7 @@ SELECT MAX(saldo) - MIN(saldo) as 'VerschilSaldo FROM tblKlanten ...
 ```
 
 #### Scalar functies
-Gelijkaardig aan de functies voor berekeningen bij aggregaties bestaan er verschillende **functies op enkelvoudige elementen** zoals een string, datum. Dergelijke functies noemt met **scalar functies**.
+**Scalar** functies werken in op een enkelvoudige elementen zoals een string, datum.
 
 **Overzicht**
 Scalar functies op string types
