@@ -1,0 +1,966 @@
+[
+    {
+        "geoPosition": {
+            "longitude": 3.715318547122,
+            "latitude": 51.054228067946
+        },
+        "displayName": "Partago Quark",
+        "vehicleInformation": {
+            "brand": "Nissan",
+            "model": "e-NV200 2018",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.5485730766081,
+            "latitude": 51.02380216165
+        },
+        "displayName": "Partago Rataplan",
+        "vehicleInformation": {
+            "brand": "Nissan",
+            "model": "e-NV200 2018",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.3242532041666,
+            "latitude": 51.045252078449
+        },
+        "displayName": "Partago Valor",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.4974417155579,
+            "latitude": 51.126653279407
+        },
+        "displayName": "Partago Socrates",
+        "vehicleInformation": {
+            "brand": "Nissan",
+            "model": "Leaf",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6864953495637,
+            "latitude": 51.069222088358
+        },
+        "displayName": "Partago Timicheg",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6848842445459,
+            "latitude": 51.078262259164
+        },
+        "displayName": "Partago Eva",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7517709594983,
+            "latitude": 51.038873704614
+        },
+        "displayName": "Partago Titine",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6701316301527,
+            "latitude": 51.072058471445
+        },
+        "displayName": "Partago Vespa",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.753055615542,
+            "latitude": 51.044021518441
+        },
+        "displayName": "Partago Theo",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7470633027815,
+            "latitude": 51.032128149317
+        },
+        "displayName": "Partago Rox",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7442336140513,
+            "latitude": 51.055261787049
+        },
+        "displayName": "Partago Rudolf",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7088019698782,
+            "latitude": 51.062598182926
+        },
+        "displayName": "Partago Borealis",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6920055007599,
+            "latitude": 51.067630845181
+        },
+        "displayName": "Partago Flash",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7602616024489,
+            "latitude": 51.034500757535
+        },
+        "displayName": "Partago Maxwell",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.758186880636,
+            "latitude": 51.044209170069
+        },
+        "displayName": "Partago Wez",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7154997427939,
+            "latitude": 51.049357226118
+        },
+        "displayName": "Partago Isidor",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7586016893668,
+            "latitude": 51.040432294761
+        },
+        "displayName": "Partago Bruno",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7228473600829,
+            "latitude": 51.041642003771
+        },
+        "displayName": "Partago Tesla",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7330637534213,
+            "latitude": 51.04059124357
+        },
+        "displayName": "Partago Oona",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.744581856957,
+            "latitude": 51.043305563162
+        },
+        "displayName": "Partago Kobe",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6800202840287,
+            "latitude": 51.074381733711
+        },
+        "displayName": "Partago, Corleone",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7313443456256,
+            "latitude": 51.082503640918
+        },
+        "displayName": "Partago Bes",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7371981621193,
+            "latitude": 51.05414208167
+        },
+        "displayName": "Partago Pjotr",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7056383046335,
+            "latitude": 51.052180624762
+        },
+        "displayName": "Partago Zazou",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7072643028585,
+            "latitude": 51.084124749975
+        },
+        "displayName": "Partago Vink",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7424480847665,
+            "latitude": 51.047767197222
+        },
+        "displayName": "Partago Achiel",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7563596356284,
+            "latitude": 51.044509116529
+        },
+        "displayName": "Partago Alfa",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "ZOE 22kWh",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6691694297487,
+            "latitude": 51.073203762798
+        },
+        "displayName": "Partago Bono",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.4849806358931,
+            "latitude": 51.289386149575
+        },
+        "displayName": "Partago Gaston",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "ZOE 22kWh",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "fixed"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.4849806358931,
+            "latitude": 51.289386149575
+        },
+        "displayName": "Partago Leo",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "ZOE 22kWh",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "fixed"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.4829330839929,
+            "latitude": 51.289102024241
+        },
+        "displayName": "Partago Cesar",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7056383046335,
+            "latitude": 51.052180624762
+        },
+        "displayName": "Partago Mees",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7161266922635,
+            "latitude": 51.030341055101
+        },
+        "displayName": "Partago Curie",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6993621647764,
+            "latitude": 51.060221832112
+        },
+        "displayName": "Partago Dalton",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7029795094602,
+            "latitude": 51.053228245312
+        },
+        "displayName": "Partago Delfi",
+        "vehicleInformation": {
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7344504,
+            "latitude": 51.0595906
+        },
+        "displayName": "Partago Luminus",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "ZOE 22kWh",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "fixed"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.4516915103132,
+            "latitude": 51.172166441719
+        },
+        "displayName": "Partago Edison",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.7002069988155,
+            "latitude": 50.894305755644
+        },
+        "displayName": "Partago Eon",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.4600556917324,
+            "latitude": 51.167606890536
+        },
+        "displayName": "Partago Faraday",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7565751465708,
+            "latitude": 51.019797693429
+        },
+        "displayName": "Partago Flora",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.72943908778,
+            "latitude": 50.885095052373
+        },
+        "displayName": "Partago Ganda",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7102966644886,
+            "latitude": 51.030992460762
+        },
+        "displayName": "Partago Bravo",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "ZOE 22kWh",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.4898778015758,
+            "latitude": 51.15883357975
+        },
+        "displayName": "Partago Gerrit",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7330637534213,
+            "latitude": 51.04059124357
+        },
+        "displayName": "Partago Helga",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.8813977256996,
+            "latitude": 51.005405282449
+        },
+        "displayName": "Partago Hera",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.2658886066252,
+            "latitude": 50.751933724117
+        },
+        "displayName": "Partago Igor",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7105118877871,
+            "latitude": 51.004061412658
+        },
+        "displayName": "Partago Inno",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "ZOE 22kWh",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.729826845292,
+            "latitude": 51.061034112098
+        },
+        "displayName": "Partago Uno",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7109322511608,
+            "latitude": 51.075014408819
+        },
+        "displayName": "Partago Juno",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7313443456256,
+            "latitude": 51.082503640918
+        },
+        "displayName": "Partago Kenny",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.6994438659489,
+            "latitude": 50.866148874085
+        },
+        "displayName": "Partago Krissy",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6981768914614,
+            "latitude": 51.04576299401
+        },
+        "displayName": "Partago Lea",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7508023508073,
+            "latitude": 51.054247881124
+        },
+        "displayName": "Partago Louis",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7573777721448,
+            "latitude": 51.029416795144
+        },
+        "displayName": "Partago Mufasa",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.5485730766081,
+            "latitude": 51.02380216165
+        },
+        "displayName": "Partago Nala",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7417630040228,
+            "latitude": 51.047356704758
+        },
+        "displayName": "Partago Neo",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "ZOE 22kWh",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7074461105036,
+            "latitude": 51.006238137502
+        },
+        "displayName": "Partago Pandora",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6993621647764,
+            "latitude": 51.060221832112
+        },
+        "displayName": "Partago Otto",
+        "vehicleInformation": {
+            "brand": "Nissan",
+            "model": "e-NV200 2018",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7508476630202,
+            "latitude": 51.044149087894
+        },
+        "displayName": "Partago Pixie",
+        "vehicleInformation": {
+            "brand": "Nissan",
+            "model": "e-NV200 2018",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 4.4424139770386,
+            "latitude": 51.175770851904
+        },
+        "displayName": "Partago Quinten",
+        "vehicleInformation": {
+            "brand": "Nissan",
+            "model": "e-NV200",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7227258159855,
+            "latitude": 51.035244622573
+        },
+        "displayName": "Partago Ruby",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7510747417279,
+            "latitude": 51.049599616579
+        },
+        "displayName": "Partago Suzy",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.747607125418,
+            "latitude": 51.04184314768
+        },
+        "displayName": "Partago Tron",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7307921645525,
+            "latitude": 51.065814696225
+        },
+        "displayName": "Partago Jasmijn",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "ZOE 22kWh",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7396827647556,
+            "latitude": 51.045980320884
+        },
+        "displayName": "Partago Volta",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7142295220692,
+            "latitude": 51.039045288066
+        },
+        "displayName": "Partago Foxy",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7018561198388,
+            "latitude": 51.057054310902
+        },
+        "displayName": "Partago Xenner",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.7642876760844,
+            "latitude": 51.043557887805
+        },
+        "displayName": "Partago Yoko",
+        "vehicleInformation": {
+            "brand": "Renault",
+            "model": "Zo\u00e9",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    },
+    {
+        "geoPosition": {
+            "longitude": 3.6994552322929,
+            "latitude": 51.059495121983
+        },
+        "displayName": "Partago Zen",
+        "vehicleInformation": {
+            "brand": "Nissan",
+            "model": "e-NV200 2018",
+            "fuelType": "electric",
+            "transmissionType": "automatic"
+        },
+        "stationType": "free floating"
+    }
+]
